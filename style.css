@@ -6,17 +6,17 @@
 */
 
 html {
-	background-color: #960D27;
+	/*background-color: #960D27;*/
 }
 
 body {
 	font-family: "Helvetica Neue";
 	text-align: center;
-	color: #960D27;
+	/*color: #960D27;*/
 }
 
 .link {
-	color:  #FFFFCC;
+	color:  black;
 	text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ body {
 .name {
 	margin-top: 100px;
 	font-size: 60px;
-	color: #FFFFCC;
+	/*color: #FFFFCC;*/
 	/*padding-bottom: 3%;*/
 }
 
