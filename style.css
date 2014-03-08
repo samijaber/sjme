@@ -18,25 +18,25 @@ body {
 
 .link {
 	color:  #960D27;
-
 	/*text-decoration: none;*/
 }
 
 .box {
 	font-size: 18px;
-	/*background-color: #FFFFCC;*/
-	/*font-weight: bold;*/
-	/*margin-top: 1%;*/
-/*	margin-bottom: 2%;
+/*	background-color: #FFFFCC;
+	font-weight: bold;
+	margin-top: 1%;
+	margin-bottom: 2%;
 	margin-left: 25%;
 	margin-right: 25%;
 	border-radius: 60px;
 	padding-bottom: 1px;
-	padding-top: 1px;
-*/}
+	padding-top: 1px;*/
+}
 
 .title {
-	padding-top: 1%;
+	padding-top: 50px;
+	padding-bottom: 3px;
 	font-size: 25px;
 	color: #156905;
 	/*color: #960D27;*/
@@ -45,9 +45,9 @@ body {
 .name {
 	margin-top: 100px;
 	font-size: 60px;
-/*	color: #FFFFCC;*/
+/*	color: #FFFFCC;
 	padding-bottom: 3%;
-}
+*/}
 
 .comments {
 	text-align: right;
