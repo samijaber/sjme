@@ -4,8 +4,40 @@
 		"selected_items":
 		[
 			[
+				"color",
+				"border-color"
+			],
+			[
+				"colo",
+				"outline-color"
+			],
+			[
+				"h",
+				"line-height"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"pad",
-				"padding-left"
+				"padding-top"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"text",
+				"text-decoration"
 			],
 			[
 				"padd",
@@ -22,10 +54,6 @@
 			[
 				"font",
 				"font-weight"
-			],
-			[
-				"margin",
-				"margin-left"
 			],
 			[
 				"marg",
@@ -120,41 +148,35 @@
 	"buffers":
 	[
 		{
-			"file": "style.css",
+			"contents": "<!DOCTYPE html>\n<html>\n	<link rel='stylesheet' href='bower_components/typicons/src/font/typicons.min.css' />\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>\n	<title>Sami Jaber</title>\n	<body>\n		<div class=\"name\">\n			SAMI JABER\n		</div>\n		<div class=\"box\">\n		\n			<div class=\"title\">// ABOUT ME</div>\n			I'm a software developer at <a class=\"link\" href=\"http://www.genetec.com/\">Genetec</a>,\n			<br> Comp Sci student at <a class=\"link\" href=\"http://mcgill.ca/\">McGill</a>,\n			<br> Co-Founder of <a href=\"http://hackmcgill.com\" class=\"link\">HackMcGill</a> & <a href=\"http://mchacks.io\" class=\"link\">McHacks</a>.</p>\n			For more about me, read my \n			<a class=\"link\" href=\"CV.pdf\"><span class=\"typcn typcn-document-text\"></span></a>. \n			<br>\n			Interested in my code? Clone it on \n			<a class=\"link\" href=\"http://github.com/samijaber\"><span class=\"typcn typcn-social-github\"></span></a>.\n		</div>\n		\n		<div class=\"box\">\n			<div class=\"title\">// CONTACT</div>\n				You can <a class=\"link\" href=\"mailto:jabersami@gmail.com\">\n				<span class=\"typcn typcn-mail\"><span></a> me,\n				connect with me on <a class=\"link\" href=\"http://www.linkedin.com/profile/view?id=196625816&trk=tab_pro\">\n					<span class=\"typcn typcn-social-linkedin\"><span></a>, <br> \n\n				or follow me on <a class=\"link\" href=\"http://www.twitter.com/samjabz\">\n					<span class=\"typcn typcn-social-twitter\"><span></a>.\n		</div>\n	</body>\n</html>\n",
+			"file": "index.html",
+			"file_size": 1502,
+			"file_write_time": 130399104270000000,
 			"settings":
 			{
-				"buffer_size": 710,
+				"buffer_size": 1505,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Hi Everyone!\n\nIf you recieved this email, then you are currenty on the WAITLIST for the bus you signed up to. Unfortunately, We had a lot of signups, and so cannot guarantee you a spot just yet. If someone gives up their seat, we will let you know ASAP to confirm that you want to take it instead.\n\nThanks,\nSami Jaber\nInternal Director | HackMcGill\n+1-514-443-1606",
+			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 364,
-				"line_ending": "Unix",
-				"name": "Hi Everyone!"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n\n<body>\n	<div class=\"name\">\n		Sami Jaber\n	</div>\n\n<!-- 	<ul id=\"horlist\">\n		<li><a class=\"link\" href=\"https://www.dropbox.com/s/8u5ntmh85xmlpjj/Sami Jaber CV.pdf\">CV</a></li>\n		<li><a class=\"link\" href=\"http://github.com/samijaber\">Github</a></li>\n		<li><a class=\"link\" href=\"http://blog.samijaber.me\">Blog</a></li>\n	</ul>\n\n	(Under Construction)\n -->\n\n	<div class=\"box\">\n		<p> I write software,\n		<br> study Comp Sci & Math at McGill,\n		<br> help friends hack (<a href=\"http://hackmcgill.com\" class=\"link\">HackMcGill</a> VP Internal),\n		<br> organize <a href=\"http://mchacks.io\" class=\"link\">McHacks</a>,\n		<br> and (want to) <a href=\"http://samijaber.me/soon\" class=\"link\">blog</a> about stuff. </p>\n	</div>\n\n	<div class=\"box\">\n		<div class=\"title\">What have I already done?</div>  \n		<ul id=\"horlist\">\n			<li><a class=\"link\" href=\"https://www.dropbox.com/s/8u5ntmh85xmlpjj/Sami Jaber CV.pdf\">CV</a></li>\n			<li><a class=\"link\" href=\"http://github.com/samijaber\">Github</a></li>\n			<li><a class=\"link\" href=\"soon/index.html\">Code</a></li>\n		</ul>\n	</div>\n\n	<div class=\"box\">\n		<div class=\"title\"> How can you reach me?</div>\n		<ul id=\"horlist\">\n			<li><a class=\"link\" href=\"mailto:jabersami@gmail.com\">Email</a></li>\n			<li><a class=\"link\" href=\"http://www.linkedin.com/profile/view?id=196625816&trk=tab_pro\">LinkedIn</a></li>\n		</ul>\n	</div>\n\n\n</body>\n\n</html>",
-			"file": "index.html",
-			"file_size": 1147,
-			"file_write_time": 130368147970000000,
-			"settings":
-			{
-				"buffer_size": 1442,
-				"line_ending": "Unix",
-				"name": "index.html"
+				"buffer_size": 830,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 47.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -168,7 +190,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 448.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -189,6 +211,15 @@
 	},
 	"file_history":
 	[
+		"/Users/samijaber/Documents/Code/CodeJam2013/public/javascripts/vendor/nvd3/README.md",
+		"/Users/samijaber/Desktop/COSTS",
+		"/Users/samijaber/Documents/Code/samijaber/icons/twitter.svg",
+		"/Users/samijaber/Documents/Code/samijaber/icons/linkedin.svg",
+		"/Users/samijaber/Documents/Code/samijaber/icons/github.svg",
+		"/Users/samijaber/Documents/Code/samijaber/icons/email.svg",
+		"/Users/samijaber/Documents/Code/samijaber/icons/elegant_font.zip",
+		"/Users/samijaber/Desktop/Amazon - Cultural Vistas/Amazon questions",
+		"/Users/samijaber/Documents/Code/samijaber/style.css",
 		"/Users/samijaber/Desktop/Amazon positions",
 		"/Users/samijaber/Documents/Code/samijaber/soon/index.html",
 		"/Users/samijaber/Documents/Code/samijaber/soon.html",
@@ -199,7 +230,6 @@
 		"/Users/samijaber/Documents/Code/samijaber/blog/_posts/2013-12-24-welcome-to-jekyll.markdown",
 		"/Users/samijaber/Documents/Code/samijaber/samijaber.sublime-project",
 		"/Users/samijaber/Documents/Code/samijaber/blog/.gitignore",
-		"/Users/samijaber/Documents/Code/samijaber/style.css",
 		"/Users/samijaber/Documents/Code/MathGenius/mathgenius.js",
 		"/Users/samijaber/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/samijaber/Documents/Code/samijaber/style-old.css",
@@ -296,6 +326,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"	line-height: 10px;\n",
+			"\n		",
+			"white",
+			"box",
 			"email: ",
 			"href",
 			"masthead",
@@ -366,24 +400,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "style.css",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 710,
+						"buffer_size": 1505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								363,
+								363
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -395,24 +429,25 @@
 				},
 				{
 					"buffer": 1,
+					"file": "style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 364,
+						"buffer_size": 830,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								364,
-								364
+								643,
+								643
 							]
 						],
 						"settings":
 						{
-							"auto_name": "Hi Everyone!",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -420,43 +455,13 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1442,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								107,
-								107
-							]
-						],
-						"settings":
-						{
-							"auto_name": "index.html",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -522,7 +527,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
