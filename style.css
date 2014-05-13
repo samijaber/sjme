@@ -10,7 +10,10 @@
 }
 
 body {
-	font-family: "Arvo", sans-serif;
+	/*font-family: "Arvo", sans-serif;*/
+	font-family: "Roboto", sans-serif;
+	/*font-family: "Roboto Slab", sans-serif;*/
+	/*font-family: "Roboto Condensed", sans-serif;*/
 	text-align: center;
 	background-color: #FDFDF2;
 }
