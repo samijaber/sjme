@@ -148,13 +148,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n	<link rel='stylesheet' href='bower_components/typicons/src/font/typicons.min.css' />\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>\n	<title>Sami Jaber</title>\n	<body>\n		<div class=\"name\">\n			SAMI JABER\n		</div>\n		<div class=\"box\">\n		\n			<div class=\"title\">// ABOUT ME</div>\n			I'm a software developer at <a class=\"link\" href=\"http://www.genetec.com/\">Genetec</a>,\n			<br> Comp Sci student at <a class=\"link\" href=\"http://mcgill.ca/\">McGill</a>,\n			<br> Co-Founder of <a href=\"http://hackmcgill.com\" class=\"link\">HackMcGill</a> & <a href=\"http://mchacks.io\" class=\"link\">McHacks</a>.</p>\n			For more about me, read my \n			<a class=\"link\" href=\"CV.pdf\"><span class=\"typcn typcn-document-text\"></span></a>. \n			<br>\n			Interested in my code? Clone it on \n			<a class=\"link\" href=\"http://github.com/samijaber\"><span class=\"typcn typcn-social-github\"></span></a>.\n		</div>\n		\n		<div class=\"box\">\n			<div class=\"title\">// CONTACT</div>\n				You can <a class=\"link\" href=\"mailto:jabersami@gmail.com\">\n				<span class=\"typcn typcn-mail\"><span></a> me,\n				connect with me on <a class=\"link\" href=\"http://www.linkedin.com/profile/view?id=196625816&trk=tab_pro\">\n					<span class=\"typcn typcn-social-linkedin\"><span></a>, <br> \n\n				or follow me on <a class=\"link\" href=\"http://www.twitter.com/samjabz\">\n					<span class=\"typcn typcn-social-twitter\"><span></a>.\n		</div>\n	</body>\n</html>\n",
 			"file": "index.html",
-			"file_size": 1502,
-			"file_write_time": 130399104270000000,
 			"settings":
 			{
-				"buffer_size": 1505,
+				"buffer_size": 1617,
 				"line_ending": "Unix"
 			}
 		},
@@ -162,7 +159,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 830,
+				"buffer_size": 948,
 				"line_ending": "Unix"
 			}
 		}
@@ -170,9 +167,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 169.0,
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -182,15 +183,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"inst",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 457.0
 	},
 	"console":
 	{
@@ -395,7 +392,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -404,15 +401,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1505,
+						"buffer_size": 1617,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								363,
-								363
+								1108,
+								1111
 							]
 						],
 						"settings":
@@ -424,7 +421,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -433,15 +430,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 830,
+						"buffer_size": 948,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								643,
-								643
+								731,
+								731
 							]
 						],
 						"settings":
@@ -453,7 +450,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -510,11 +507,11 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -530,7 +527,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 187.0,
 	"status_bar_visible": true,
 	"template_settings":
