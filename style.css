@@ -10,32 +10,48 @@
 }
 
 body {
-	/*font-family: "Arvo", sans-serif;*/
 	font-family: "Roboto", sans-serif;
-	/*font-family: "Roboto Slab", sans-serif;*/
-	/*font-family: "Roboto Condensed", sans-serif;*/
-	text-align: center;
 	background-color: #FDFDF2;
+}
+
+.grid {
+	display: flex;
+	flex-direction: row;		
+	justify-content: center;
 }
 
 .name {
 	margin-top: 100px;
 	font-size: 60px;
+	text-align: center;
 }
 
 .title {
 	padding-top: 50px;
-	padding-bottom: 3px;
 	font-size: 25px;
 	color: #156905;
 }
 
-.box {
+div.box1 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box1 {
+	font-size: 25px;
+	grid-column: 1;
+	width: 200px;
+}
+
+.box2 {
 	font-size: 21px;
+	grid-column: 2;
+	text-align: left;
 }
 
 .link {
 	color:  #960D27;
+	text-decoration: none;
 }
 
 .typcn {
