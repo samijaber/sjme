@@ -14,6 +14,10 @@ body {
 	background-color: #FDFDF2;
 }
 
+.vln {        
+    border-left: thin solid black;
+}
+
 .grid {
 	display: flex;
 	flex-direction: row;		
@@ -32,6 +36,10 @@ body {
 	color: #156905;
 }
 
+div.grid div {
+    height: 215px;
+}
+
 div.box1 img {
     max-width: 100%;
     max-height: 100%;
@@ -40,20 +48,20 @@ div.box1 img {
 .box1 {
 	font-size: 25px;
 	grid-column: 1;
-	width: 200px;
 }
 
 .box2 {
-	font-size: 21px;
+	font-size: 31px;
 	grid-column: 2;
 	text-align: left;
 }
 
 .link {
-	color:  #960D27;
-	text-decoration: none;
+    color: #960D27;
+    text-decoration: none;
 }
 
 .typcn {
-	font-size: 30px;
+	font-size: 50px;
+
 }
