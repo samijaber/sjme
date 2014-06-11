@@ -11,72 +11,44 @@
 
 body {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
-
+	font-size: 29px;
 
 	font-family: "Roboto", sans-serif;
 	background-color: #FDFDF2;
 
 }
-/*
+
 .name {
-	display: flex;
-	flex-direction: row;		
 	margin-top: 100px;
 	font-size: 75px;
 	text-align: center;
-	justify-content: center;
-}
-*/
-#name {
-	margin-top: 100px;
-	font-size: 75px;
-	padding-bottom: 80px;
 }
 
-.nm1 {
-	text-align: right;
-}
-
-.nm2 {
-	text-align: left;
-}
-
-.col {
+.row2 {
 	display: flex;
-	flex-direction: column;
-}
-/*
-.grid {
-	display: flex;
-	flex-direction: row;		
+	flex-direction: row;
 	justify-content: center;
-	padding-top: 5%;
-}*/
+	margin-top: 80px;
+}
 
 .desc {
-	font-size: 31px;
 	text-align: left;
     border-left: thin solid black;
     margin: 0px 5px 0px 15px;
     padding-left: 15px;
+    position: relative;
 }
-/*
-div.grid div {
-    height: 215px;
-}*/
 
 div.face img {
-    max-height: 215px;
+    max-height: 230px;
 }
 
-/*
-.title {
-	padding-top: 50px;
-	font-size: 25px;
-	color: #156905;
-}*/
+.icons {
+	position: absolute;
+	bottom: 0;
+}
 
 .link {
     color: #960D27;
@@ -86,3 +58,10 @@ div.face img {
 .typcn {
 	font-size: 50px;
 }
+
+/*
+body:hover #move {
+  transition: 5s;
+  left: inherit;
+}*/
+
