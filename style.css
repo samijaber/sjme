@@ -10,7 +10,6 @@
 }
 
 body {
-	display: flex;
 	flex-direction: column;
 	font-size: 29px;
 	font-family: "Roboto", sans-serif;
@@ -68,7 +67,7 @@ body:hover #move {
   left: inherit;
 }*/
 
-
+/*
 @media screen and (max-width:600px) {
 	.name {display: none;}
 	.icons {display: none;}
@@ -105,4 +104,4 @@ body:hover #move {
 		margin: 10px auto 0px auto;
 	    padding-left: 0px;
 	}
-}
+}*/
