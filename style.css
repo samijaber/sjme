@@ -15,14 +15,6 @@ body {
 	background-color: #FDFDF2;
 }
 
-.name-mob {
-	display: none;
-}
-
-.icons-mob {
-	display: none;
-}
-
 .name {
 	margin-top: 100px;
 	font-size: 75px;
@@ -51,6 +43,21 @@ div.face img {
 }
 
 .link {
-    color: #960D27;
-    text-decoration: none;
+  color: #960D27;
+  text-decoration: none;
+}
+
+.btns {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#blog {
+  right: 15%;
+  position: relative;
+}
+
+#music {
+  left: 15%;
+  position: relative;
 }
