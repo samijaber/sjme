@@ -53,11 +53,11 @@ div.face img {
 }
 
 #blog {
-  right: 15%;
-  position: relative;
+  right: 33%;
+  position: absolute;
 }
 
 #music {
-  left: 15%;
-  position: relative;
+  left: 33%;
+  position: absolute;
 }
